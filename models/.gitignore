@@ -1,7 +1,24 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Env files
 .env
+
+# Data folder (keep .gitkeep)
 data/*
 !data/.gitkeep
-.ipynb_checkpoints/
+
+# Python cache
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# OS files
 .DS_Store
+Thumbs.db
